@@ -11,7 +11,7 @@ cp object_detection/packages/tf2/setup.py .
 python -m pip install .
 ```
 
-2. Install protobuf
+2. Install "protobuf"
 ```
 cd ~/models/research
 wget https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protoc-3.17.3-linux-x86_64.zip
