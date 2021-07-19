@@ -20,7 +20,7 @@ unzip protoc-3.17.3-linux-x86_64.zip
 
 
 ###### Download a TensorFlow model and manually modify the pipline prior to re-training the model.
-In this example, we applied [faster_rcnn_inception_resnet_v2_1024x1024](https://tfhub.dev/tensorflow/faster_rcnn/inception_resnet_v2_640x640/1) for deep learning.
+In this example, we applied [faster_rcnn_inception_resnet_v2_1024x1024](https://tfhub.dev/tensorflow/faster_rcnn/inception_resnet_v2_640x640/1) from TensorFlow Hub for deep learning.
 
 
 
