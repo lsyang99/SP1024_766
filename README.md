@@ -1,7 +1,7 @@
 ## Solar Panel Detection on TWCC.
 
 
-##### Setup an environment for deep learning in terminal:
+#### Setup an environment for deep learning in terminal:
 
 1. Install TensorFlow Object Detection API
 ```
@@ -19,12 +19,12 @@ unzip protoc-3.17.3-linux-x86_64.zip
 ```
 
 
-##### Download a TensorFlow model and manually modify the pipline prior to re-training the model.
+#### Download a TensorFlow model and manually modify the pipline prior to re-training the model.
 In this example, we applied [faster_rcnn_inception_resnet_v2_1024x1024](https://tfhub.dev/tensorflow/faster_rcnn/inception_resnet_v2_640x640/1) from TensorFlow Hub for deep learning.
 
 
 
-##### Setup an environment for inference in termial:
+#### Setup an environment for inference in termial:
 
 1. Install TensorFlow Object Detection API
 ```
