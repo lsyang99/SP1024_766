@@ -1,5 +1,5 @@
 ## Solar Panel Detection on TWCC.
-This repository demonstrates an example of solar panel detection on [TWCC](https://www.twcc.ai). The size of dataset is 766 with a resolution of 1024x1024 pixels. Dataset is split into train and test sets with ratios 0.8 and 0.2. Please note that the raw dataset, with a GeoTIFF and a XML file for each image, is extracted from objects labeling in ArcGIS Pro. Prior to performing deep learning, the raw dataset should be transformed as described in [this repository](https://github.com/lsyang99/Solar-Panel-Detection-Samples).
+This repository demonstrates an example of solar panel detection on [TWCC](https://www.twcc.ai)(Taiwan Computing Cloud). The size of dataset is 766 with a resolution of 1024x1024 pixels. Dataset is split into train and test sets with ratios 0.8 and 0.2. Please note that the raw dataset, with a GeoTIFF and a XML file for each image, is extracted from objects labeling in ArcGIS Pro. Prior to performing deep learning, the raw dataset should be transformed as described in [this repository](https://github.com/lsyang99/Solar-Panel-Detection-Samples).
 
 #### 1. Setup an environment for deep learning in terminal:
 
