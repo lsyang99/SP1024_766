@@ -54,7 +54,7 @@ pip install pandas geopandas shapely google.colab tensorflow_hub
 
 
 
-- Resolve other error messages in terminal: `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
+- Resolve the error message in terminal: `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
 
 ```
 sudo apt update
