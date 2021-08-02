@@ -34,7 +34,7 @@ In this example, we applied [faster_rcnn_inception_resnet_v2_1024x1024](https://
 cd ~/models/research
 ./bin/protoc object_detection/protos/*.proto --python_out=.
 cp object_detection/packages/tf2/setup.py . 
-python -m pip install .
+pip install . --use-deprecated=legacy-resolver
 ```
 
 - Install essential packages
@@ -51,3 +51,15 @@ pip install opencv-python
 # For others
 pip install pandas geopandas shapely google.colab tensorflow_hub
 ```
+
+
+
+#### Resolve other error messages in terminal
+- `ImportError: libGL.so.1: cannot open shared object file: No such file or directory`
+
+```
+sudo apt update
+sudo apt install libgl1-mesa-glx
+```
+
+
